@@ -17,3 +17,5 @@ mysqlConnection.connect((err) => {
     console.error("Connection to db failed! Error:" + err.message);
   }
 });
+
+module.exports = mysqlConnection;
